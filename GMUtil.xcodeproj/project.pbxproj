@@ -12,8 +12,8 @@
 		136BE9A220EE184300AAB4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136BE9A020EE184300AAB4DD /* Main.storyboard */; };
 		136BE9A420EE184500AAB4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136BE9A320EE184500AAB4DD /* Assets.xcassets */; };
 		136BE9A720EE184500AAB4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136BE9A520EE184500AAB4DD /* LaunchScreen.storyboard */; };
-		136BE9B020EE18AB00AAB4DD /* GMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9AF20EE18AB00AAB4DD /* GMButton.swift */; };
-		136BE9B420EE18E700AAB4DD /* GMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9B320EE18E700AAB4DD /* GMImageView.swift */; };
+		136BE9B920EE1BA300AAB4DD /* GMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9B720EE1BA300AAB4DD /* GMButton.swift */; };
+		136BE9BA20EE1BA300AAB4DD /* GMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9B820EE1BA300AAB4DD /* GMImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		136BE9A320EE184500AAB4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136BE9A620EE184500AAB4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136BE9A820EE184500AAB4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		136BE9AF20EE18AB00AAB4DD /* GMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMButton.swift; sourceTree = "<group>"; };
-		136BE9B320EE18E700AAB4DD /* GMImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMImageView.swift; sourceTree = "<group>"; };
+		136BE9B720EE1BA300AAB4DD /* GMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMButton.swift; sourceTree = "<group>"; };
+		136BE9B820EE1BA300AAB4DD /* GMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,6 @@
 		136BE99020EE184300AAB4DD = {
 			isa = PBXGroup;
 			children = (
-				136BE9AE20EE188000AAB4DD /* GMExtension */,
 				136BE99B20EE184300AAB4DD /* GMUtil */,
 				136BE99A20EE184300AAB4DD /* Products */,
 			);
@@ -59,6 +58,7 @@
 		136BE99B20EE184300AAB4DD /* GMUtil */ = {
 			isa = PBXGroup;
 			children = (
+				136BE9B520EE1BA300AAB4DD /* Swift_Code */,
 				136BE99C20EE184300AAB4DD /* AppDelegate.swift */,
 				136BE99E20EE184300AAB4DD /* ViewController.swift */,
 				136BE9A020EE184300AAB4DD /* Main.storyboard */,
@@ -69,11 +69,19 @@
 			path = GMUtil;
 			sourceTree = "<group>";
 		};
-		136BE9AE20EE188000AAB4DD /* GMExtension */ = {
+		136BE9B520EE1BA300AAB4DD /* Swift_Code */ = {
 			isa = PBXGroup;
 			children = (
-				136BE9AF20EE18AB00AAB4DD /* GMButton.swift */,
-				136BE9B320EE18E700AAB4DD /* GMImageView.swift */,
+				136BE9B620EE1BA300AAB4DD /* GMExtension */,
+			);
+			path = Swift_Code;
+			sourceTree = SOURCE_ROOT;
+		};
+		136BE9B620EE1BA300AAB4DD /* GMExtension */ = {
+			isa = PBXGroup;
+			children = (
+				136BE9B720EE1BA300AAB4DD /* GMButton.swift */,
+				136BE9B820EE1BA300AAB4DD /* GMImageView.swift */,
 			);
 			path = GMExtension;
 			sourceTree = "<group>";
@@ -149,9 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136BE9B020EE18AB00AAB4DD /* GMButton.swift in Sources */,
+				136BE9B920EE1BA300AAB4DD /* GMButton.swift in Sources */,
 				136BE99F20EE184300AAB4DD /* ViewController.swift in Sources */,
-				136BE9B420EE18E700AAB4DD /* GMImageView.swift in Sources */,
+				136BE9BA20EE1BA300AAB4DD /* GMImageView.swift in Sources */,
 				136BE99D20EE184300AAB4DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
