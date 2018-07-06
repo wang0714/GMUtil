@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "Swift_GMUtil"	#项目名称
-  s.version      = "1.0.2" #当前版本
+  s.version      = "1.0.3" #当前版本
   s.summary      = "工具类" #需要写一个简短的描述
   s.ios.deployment_target = "8.0" #支持的pod最低版本
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
