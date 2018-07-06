@@ -14,6 +14,6 @@ let KHeight = UIScreen.main.bounds.size.height
 let autoSizeScaleW = UIScreen.main.bounds.size.width/375.0
 let autoSizeScaleH = UIScreen.main.bounds.size.height/667.0
 
-class GMUtil: NSObject {
+open class GMUtil: NSObject {
 
 }
