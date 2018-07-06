@@ -8,11 +8,11 @@
 
 import UIKit
 
-let KWidth  = UIScreen.main.bounds.size.width
-let KHeight = UIScreen.main.bounds.size.height
+public let KWidth  = UIScreen.main.bounds.size.width
+public let KHeight = UIScreen.main.bounds.size.height
 
-let autoSizeScaleW = UIScreen.main.bounds.size.width/375.0
-let autoSizeScaleH = UIScreen.main.bounds.size.height/667.0
+public let autoSizeScaleW = UIScreen.main.bounds.size.width/375.0
+public let autoSizeScaleH = UIScreen.main.bounds.size.height/667.0
 
 open class GMUtil: NSObject {
 
