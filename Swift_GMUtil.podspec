@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 
 
   s.name         = "Swift_GMUtil"	#项目名称
-  s.version      = "1.0.1" #当前版本
+  s.version      = "1.0.2" #当前版本
   s.summary      = "工具类" #需要写一个简短的描述
-  s.ios.deployment_target = "10.0" #支持的pod最低版本
+  s.ios.deployment_target = "7.0" #支持的pod最低版本
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.homepage     = "https://github.com/wang0714/GMUtil"
   s.author       = { "嗯嗯高明" => "184724949@qq.com" }

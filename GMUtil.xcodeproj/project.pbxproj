@@ -14,6 +14,7 @@
 		136BE9A720EE184500AAB4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136BE9A520EE184500AAB4DD /* LaunchScreen.storyboard */; };
 		136BE9B920EE1BA300AAB4DD /* GMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9B720EE1BA300AAB4DD /* GMButton.swift */; };
 		136BE9BA20EE1BA300AAB4DD /* GMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9B820EE1BA300AAB4DD /* GMImageView.swift */; };
+		136BE9BD20EF0B4800AAB4DD /* GMUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BE9BC20EF0B4800AAB4DD /* GMUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		136BE9A820EE184500AAB4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136BE9B720EE1BA300AAB4DD /* GMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMButton.swift; sourceTree = "<group>"; };
 		136BE9B820EE1BA300AAB4DD /* GMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMImageView.swift; sourceTree = "<group>"; };
+		136BE9BC20EF0B4800AAB4DD /* GMUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		136BE9B520EE1BA300AAB4DD /* Swift_Code */ = {
 			isa = PBXGroup;
 			children = (
+				136BE9BB20EF0B3600AAB4DD /* Util */,
 				136BE9B620EE1BA300AAB4DD /* GMExtension */,
 			);
 			path = Swift_Code;
@@ -84,6 +87,14 @@
 				136BE9B820EE1BA300AAB4DD /* GMImageView.swift */,
 			);
 			path = GMExtension;
+			sourceTree = "<group>";
+		};
+		136BE9BB20EF0B3600AAB4DD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				136BE9BC20EF0B4800AAB4DD /* GMUtil.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				136BE9B920EE1BA300AAB4DD /* GMButton.swift in Sources */,
 				136BE99F20EE184300AAB4DD /* ViewController.swift in Sources */,
 				136BE9BA20EE1BA300AAB4DD /* GMImageView.swift in Sources */,
+				136BE9BD20EF0B4800AAB4DD /* GMUtil.swift in Sources */,
 				136BE99D20EE184300AAB4DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
